@@ -20,7 +20,7 @@ const App = () => {
   const [selectedVideoComment, setSelectedVideoComment] = useState([]);
   const [show, setShow] = useState(true);
   const [word, setWord] = useState([]);
-  const num = 10;
+  const num = 15;
   let words = "";
 
   const handleToggle = (e) => {
